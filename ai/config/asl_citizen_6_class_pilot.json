@@ -1,0 +1,14 @@
+{
+  "schema_version": "asl-citizen-subset-v1",
+  "source": "Microsoft Research ASL Citizen v1.0",
+  "source_license": "Microsoft Research License Terms; non-commercial, non-revenue research only; data/modifications may not be redistributed and use must be consistent with participant consent.",
+  "classes": [
+    {"gloss": "who"},
+    {"gloss": "go"},
+    {"gloss": "no"},
+    {"gloss": "yes"},
+    {"gloss": "help"},
+    {"gloss": "before"}
+  ],
+  "selection_note": "Six common isolated-sign concepts also present in the WLASL pilot. Counts/availability must be re-read from the official archive splits before any extraction/training."
+}

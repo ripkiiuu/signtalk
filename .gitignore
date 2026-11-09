@@ -1,0 +1,33 @@
+# Frontend build/dependency artifacts
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+# Dataset media and derived feature arrays; keep upstream metadata/source docs
+datasets/raw/
+datasets/processed/
+datasets/WLASL/start_kit/raw_videos/
+datasets/WLASL/start_kit/raw_videos_mp4/
+datasets/WLASL/start_kit/videos/
+datasets/WLASL/start_kit/missing.txt
+datasets/WLASL/start_kit/download_*.log
+
+# Locally generated models and evaluation artifacts
+models/*.joblib
+models/*.onnx
+models/*.tflite
+models/*.pt
+models/*.pth
+models/*.npz
+ai/reports/

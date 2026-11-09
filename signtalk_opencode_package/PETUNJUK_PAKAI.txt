@@ -1,0 +1,11 @@
+PAKET INSTRUKSI OPENCODE UNTUK SIGNTALK
+
+1) Backup proyek lokal D:\ABOUT PRIMA\PKM\SIGNTALK sebelum memberi izin perubahan besar.
+2) Ekstrak paket ini. Letakkan AGENTS.md di root SIGNTALK. Jika sudah ada AGENTS.md, JANGAN menimpanya: gabungkan instruksi secara manual.
+3) Simpan MASTER_TASK_OPENCODE_SIGNTALK.md ke root SIGNTALK.
+4) Buka PowerShell:
+   cd "D:\ABOUT PRIMA\PKM\SIGNTALK"
+   opencode
+5) Di OpenCode (Build agent), kirim:
+   "Baca AGENTS.md dan MASTER_TASK_OPENCODE_SIGNTALK.md di root proyek ini. Jalankan tugas master secara nyata mulai dari audit codebase, lanjutkan P0, dan kerjakan P1/P2 sejauh data berizin dan kemampuan teknis memungkinkan. Jangan mengganti desain/kode lama atau mengklaim AI sudah terlatih jika belum."
+6) Berikan approval hanya untuk tindakan yang memang diinginkan, khususnya instalasi dependensi, perubahan besar, unduhan besar, dan layanan cloud.

@@ -1,0 +1,10 @@
+# Asset licenses and provenance
+
+- `public/pwa-icon.svg`: original SIGNTALK vector icon created for this project.
+- `public/pwa/icon-180.png`, `icon-192.png` and `icon-512.png`: generated locally from the original SVG with the checked-in Playwright icon script; no external artwork.
+- `public/mediapipe/vision_wasm_nosimd_internal.js` and `.wasm`: copied from `@mediapipe/tasks-vision` **0.10.35**, Apache License 2.0. Source package: https://www.npmjs.com/package/@mediapipe/tasks-vision.
+- `public/mediapipe/hand_landmarker.task`: official MediaPipe Hand Landmarker float16 model, downloaded from Google's published model asset URL: https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task. Upstream MediaPipe model assets are distributed under Apache 2.0; retain this provenance when redistributing.
+- `public/mediapipe/face_landmarker.task`: official MediaPipe Face Landmarker float16 model from https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task. It is used only for optional landmark detection; face blendshape output is disabled and facial affect is not evaluated.
+- `public/mediapipe/pose_landmarker_lite.task`: official MediaPipe Pose Landmarker Lite float16 model from https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task. It is opt-in detection-only; no posture/sign grade is produced.
+- `datasets/ASLSignBank/asl.ecv`: official ASL Signbank ECV index (1,149,253 bytes, metadata only) downloaded from https://aslsignbank.com/static/ecv/asl.ecv under the publisher's CC BY-NC-SA 4.0 terms. Attribute ASL Signbank (Hochgesang, Crasborn & Lillo-Martin); non-commercial/share-alike only. The index has no video media or signer IDs.
+- No example signer video, user camera frame, or third-party media is bundled. The 3D hand is procedural illustrative geometry, not a validated ASL sign or anatomical teaching reference.
