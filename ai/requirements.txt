@@ -1,0 +1,6 @@
+# Optional local preprocessing/training environment. Tested runtime is Python 3.12.
+numpy==1.26.4
+opencv-contrib-python==4.11.0.86
+mediapipe==0.10.35
+scikit-learn==1.6.1
+joblib==1.4.2

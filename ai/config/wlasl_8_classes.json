@@ -1,0 +1,16 @@
+{
+  "schema_version": "wlasl-subset-v1",
+  "source_manifest": "datasets/WLASL/start_kit/WLASL_v0.3.json",
+  "source_version": "WLASL v0.3",
+  "classes": [
+    {"gloss": "who", "metadata_instances": 25, "metadata_signers": 21},
+    {"gloss": "drink", "metadata_instances": 35, "metadata_signers": 18},
+    {"gloss": "go", "metadata_instances": 26, "metadata_signers": 17},
+    {"gloss": "no", "metadata_instances": 22, "metadata_signers": 18},
+    {"gloss": "yes", "metadata_instances": 22, "metadata_signers": 17},
+    {"gloss": "help", "metadata_instances": 22, "metadata_signers": 15},
+    {"gloss": "what", "metadata_instances": 21, "metadata_signers": 18},
+    {"gloss": "before", "metadata_instances": 26, "metadata_signers": 16}
+  ],
+  "note": "Candidate subset selected from labels present in the supplied manifest to prioritize >=15 signer IDs per gloss. Metadata counts are not available/licensed videos, signer consent review, or model performance. Verify counts with inspect_dataset.py before use."
+}

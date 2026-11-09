@@ -1,0 +1,28 @@
+{
+  "export_status": "onnx_exported",
+  "onnx_path": "models\\asl_citizen_6class_hand_logreg.onnx",
+  "source_model": "models\\asl_citizen_6class_hand_logreg.joblib",
+  "input_width": 884,
+  "input_schema": "normalized-hand-temporal-summary-v1",
+  "labels": [
+    "before",
+    "go",
+    "help",
+    "no",
+    "who",
+    "yes"
+  ],
+  "label_map": {
+    "0": "before",
+    "1": "go",
+    "2": "help",
+    "3": "no",
+    "4": "who",
+    "5": "yes"
+  },
+  "parity": {
+    "checked_samples": 64,
+    "predicted_labels_match": true
+  },
+  "usage_scope": "isolated-word experimental classifier only; no linguistic coaching claim"
+}
